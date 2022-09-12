@@ -8,7 +8,7 @@ class QuestionsController < ApplicationController
   end
 
   def the_answer(question)
-    if question == `I am going to work`
+    if question == 'I am going to work'
       'great!'
     elsif question.end_with?("?")
       'Silly question, get dressed and go to work!'
